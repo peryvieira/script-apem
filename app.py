@@ -1,5 +1,5 @@
 from flask import Flask, request
-from scrapping import format_data_ships
+from util.scrapping import format_data_ships
 import json
 
 app = Flask(__name__)

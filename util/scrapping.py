@@ -2,7 +2,7 @@ import requests
 import re
 import json
 from bs4 import BeautifulSoup
-from Ship import Ship
+from model.Ship import Ship
 
 def  __get_table():
     url = "http://www.apem-ma.com.br/?module=shipmaneuvering"
